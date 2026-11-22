@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="robots" content="noindex">
+<title>Recordhound · Spotify sign-in</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <h1>Recordhound</h1>
+  <p id="msg">Connecting to Spotify…</p>
+  <div id="paste" hidden>
+    <input id="addr" type="text" readonly aria-label="This page's address">
+    <button id="copy" type="button">Copy</button>
+  </div>
+  <p class="small">This page only forwards you between Spotify and your own Recordhound. It runs in your browser,
+    keeps nothing, and the one-time code it passes along is useless without a key only your Recordhound has.</p>
+</main>
+<script src="go.js"></script>
+</body>
+</html>
