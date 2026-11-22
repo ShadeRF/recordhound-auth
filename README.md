@@ -1,6 +1,6 @@
 # Recordhound Spotify sign-in
 
-This small page lets [Recordhound](https://github.com/ShadeRF/unraid-templates/blob/main/docs/recordhound.md) connect your Spotify account in one click.
+This small page lets [Recordhound](https://github.com/ShadeRF/recordhound) connect your Spotify account in one click.
 
 Spotify only sends people back to `https://` or `127.0.0.1` addresses after they sign in, and a home server is usually neither. So Spotify sends you here, and this page forwards you straight back to your own Recordhound.
 
